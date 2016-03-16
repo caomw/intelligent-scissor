@@ -16,7 +16,7 @@ struct Node{
 	double totalCost;
 	Node *prevNode;
 	int column, row; 
-;}
+}
 ```
 
 Dijkstra's algorithm:
