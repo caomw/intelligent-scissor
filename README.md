@@ -1,8 +1,8 @@
+## Intelligent scissor ##
+
 Author : QIN Tong
 
-Function : Intelligent scissor
-
-Cut the image like photoshop, i.e.find some certain coutour on the image, and get the image with coutour and mask.
+Function : Cut the image like photoshop, i.e.find some certain coutour on the image, and get the image with coutour and mask.
 		   
 Code: C++ in QT Creator
 
