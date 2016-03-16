@@ -1,18 +1,27 @@
 Author : QIN Tong
-Function : Intelligent scissor
-		   Cut the image like photoshop, i.e.find some certain coutour on the image, and get the image with coutour and mask.
-Code: C++ in QT Creator
-Implementation:
-	Data structures:	struct Node{
-								double linkCost[8];
-								int state;
-								double totalCost;
-								Node *prevNode;
-								int column, row; 
-								;}
 
-	Dijkstra's algorithm:
-	Begin:
+Function : Intelligent scissor
+
+Cut the image like photoshop, i.e.find some certain coutour on the image, and get the image with coutour and mask.
+		   
+Code: C++ in QT Creator
+
+###Implementation###
+
+Data structures:	
+```c++
+struct Node{
+	double linkCost[8];
+	int state;
+	double totalCost;
+	Node *prevNode;
+	int column, row; 
+;}
+```
+
+Dijkstra's algorithm:
+```
+Begin:
 
     initialize the priority queue pq to be empty;
 
@@ -49,14 +58,18 @@ Implementation:
                         update the total cost of r in pq;
 
 	End
+```
 
-use:
-	1.Load one image;
-	2.click start;
-	3.click one point as fisrt seed;
-	4.move mouse, get the coutour as you want;
-	5.save image or mask;
+###Usage###
+1. Load one image;
 
-other thing;
+2. Click start;
 
-	It's my first cv project in COMP 5212 HKUST. Thanks for prof CK Tang! 
+3. Click one point as fisrt seed;
+
+4. Move mouse, get the coutour as you want;
+
+5. Save image or mask.
+
+###Other things###
+It's my first cv project in COMP 5212 HKUST. Thanks for prof CK Tang! 
