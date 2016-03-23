@@ -65,10 +65,6 @@ Begin:
 
 	![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/main_ui.png)
 
-Also, you can check the cost graph
-
-	![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/cost_graph.png)
-
 2. Click start;
 
 3. Click one point as fisrt seed;
@@ -85,4 +81,10 @@ Also, you can check the cost graph
 
 
 ###Other things###
+In the debug mode, you can see the cost graph, min cost map and other useful debug infomation.
+
+![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/cost_graph.png)
+	
 It's my first cv project in COMP 5212 HKUST. Thanks for prof CK Tang! 
+
+Any problem contact with me! qintonguav@gmail.com
