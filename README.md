@@ -62,7 +62,7 @@ Begin:
 
 ###Usage###
 1. Load one image;
-
+![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/main_ui.png)
 2. Click start;
 
 3. Click one point as fisrt seed;
