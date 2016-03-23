@@ -63,26 +63,23 @@ Begin:
 ###Usage###
 1. Load one image;
 
-
 ![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/main_ui.png)
 
 Also, you can check the cost graph
 
-![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/cost_graph.png)
-
+![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/cost_graph.png
 2. Click start;
 
 3. Click one point as fisrt seed;
 
 4. Move mouse, get the coutour as you want;
 
-
 ![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/get_contour.png)
-
 5. Save image or mask.
-
-
 ![image](https://github.com/qintony/intelligent-scissor/blob/master/picture/get_mask.png)
+
+
+
 
 ###Other things###
 It's my first cv project in COMP 5212 HKUST. Thanks for prof CK Tang! 
